@@ -61,9 +61,9 @@ What are the 5 HTTP verbs?
 API is an acronym for "Application Programming Interface". In short, APIs are therefore a sort of intermediate point between the communication of two distinct applications. They are easily understood by those developing with the API and also to anyone who might be taking a look at them, as their broad understanding is conveyed through modern variations on API formats. (https://www.mulesoft.com/resources/api/what-is-an-api#:~:text=API%20is%20the%20acronym%20for,to%20talk%20to%20each%20other.)
 
 
-Modern APIs usually come in the form of HTTP or REST, with the former standing for "HyperText Transfer Protocol" (you are likely familiar with a form of this, being on the internet) and the latter being "REpresentational State Transfer". For a system to be "RESTful", they need to be stateless, clearly showing a divide between clients/customers and the server. They need to be representational, have "URIs" and have the capability of caching too. (https://www.codecademy.com/article/what-is-rest). A diagram of the process of API data transfer, seen in RESTful systems, is seen below.
+Modern APIs usually come in the form of HTTP or REST, with the former standing for "HyperText Transfer Protocol" (you are likely familiar with a form of this, being on the internet) and the latter being "REpresentational State Transfer". For a system to be "RESTful", they need to be stateless, clearly showing a divide between clients/customers and the server. They need to be representational, have "URIs" and have the capability of caching too. (https://www.codecademy.com/article/what-is-rest). A diagram of the process of API data transfer, seen in RESTful systems, is seen below (from Howie Mann, https://mannhowie.com/rest-api).
 
-![image](REST_APIs.webp "Data Transfer Diagram")
+![image](REST_APIs.png "Data Transfer Diagram")
 
 In communicating between devices, HTTP APIs often use 5 verbs based on what request needs to be made between the devices in question:
 
