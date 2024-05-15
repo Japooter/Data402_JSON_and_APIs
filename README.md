@@ -16,8 +16,7 @@ What is the JSON syntax for:
 
 ## JSON answers
 
-JSON notes:
-    JSON stands for JavaScript Object Notation. It allows for easy reading and write for humans and is a text format that is completely language independent. It is therefore great for the concept of data-interchange, to allow data to go from one programming language to another (https://www.json.org/json-en.html). This means JSON can be used in data exchange, typically in web applications. (https://www.spiceworks.com/tech/devops/articles/what-is-json/)
+JSON stands for JavaScript Object Notation. It allows for easy reading and write for humans and is a text format that is completely language independent. It is therefore great for the concept of data-interchange, to allow data to go from one programming language to another (https://www.json.org/json-en.html). This means JSON can be used in data exchange, typically in web applications. (https://www.spiceworks.com/tech/devops/articles/what-is-json/)
 
 JSON has two main structures that it uses: A collection of name/value pairs (also known as key/value pairs in Python with dictionaries) and an ordered list of values (lists).
 
@@ -46,7 +45,6 @@ If you have a Python object, you can convert it into a JSON string by using the 
 # APIs
 What are APIs?
 How are APIs used and why are they popular?
-Find a diagram that showcases the API data transfer process. Add it to your README
 What are REST APIs? What makes an API Restful?
  
 What is HTTP?
@@ -63,7 +61,11 @@ What are the 5 HTTP verbs?
 API is an acronym for "Application Programming Interface". In short, APIs are therefore a sort of intermediate point between the communication of two distinct applications. They are easily understood by those developing with the API and also to anyone who might be taking a look at them, as their broad understanding is conveyed through modern variations on API formats. (https://www.mulesoft.com/resources/api/what-is-an-api#:~:text=API%20is%20the%20acronym%20for,to%20talk%20to%20each%20other.)
 
 
-Modern APIs usually come in the form of HTTP or REST, with the former standing for "HyperText Transfer Protocol" (you are likely familiar with a form of this, being on the internet). In communicating between devices, HTTP APIs often use 5 verbs based on what request needs to be made between the devices in question:
+Modern APIs usually come in the form of HTTP or REST, with the former standing for "HyperText Transfer Protocol" (you are likely familiar with a form of this, being on the internet) and the latter being "REpresentational State Transfer". For a system to be "RESTful", they need to be stateless, clearly showing a divide between clients/customers and the server. They need to be representational, have "URIs" and have the capability of caching too. (https://www.codecademy.com/article/what-is-rest). A diagram of the process of API data transfer, seen in RESTful systems, is seen below.
+
+![image](REST_APIs.webp "Data Transfer Diagram")
+
+In communicating between devices, HTTP APIs often use 5 verbs based on what request needs to be made between the devices in question:
 
 - Create new resources to use in the communication between devices (POST)
 - Retrieve a single or list of items to read (GET)
