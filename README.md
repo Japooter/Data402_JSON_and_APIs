@@ -41,3 +41,39 @@ In JSON, name/value pairs are known as objects.
 
 
 If you have a Python object, you can convert it into a JSON string by using the json.dumps() method.
+
+
+# APIs
+What are APIs?
+How are APIs used and why are they popular?
+Find a diagram that showcases the API data transfer process. Add it to your README
+What are REST APIs? What makes an API Restful?
+ 
+What is HTTP?
+Find diagrams that showcase:
+ 
+- HTTP Request Structure
+- HTTP Response Structure
+ 
+What are the 5 HTTP verbs?
+
+
+## API answers
+
+API is an acronym for "Application Programming Interface". In short, APIs are therefore a sort of intermediate point between the communication of two distinct applications. They are easily understood by those developing with the API and also to anyone who might be taking a look at them, as their broad understanding is conveyed through modern variations on API formats. (https://www.mulesoft.com/resources/api/what-is-an-api#:~:text=API%20is%20the%20acronym%20for,to%20talk%20to%20each%20other.)
+
+
+Modern APIs usually come in the form of HTTP or REST, with the former standing for "HyperText Transfer Protocol" (you are likely familiar with a form of this, being on the internet). In communicating between devices, HTTP APIs often use 5 verbs based on what request needs to be made between the devices in question:
+
+- Create new resources to use in the communication between devices (POST)
+- Retrieve a single or list of items to read (GET)
+- Update an item (PUT)
+- Delete an item (DELETE)
+- Modify/patch an item's capabilities, you can use JSON Patch language for this (PATCH)
+
+(https://docs.oracle.com/en/cloud/saas/marketing/eloqua-develop/Developers/GettingStarted/APIRequests/HTTP-verbs.htm)
+(https://www.restapitutorial.com/lessons/httpmethods.html)
+
+!image[HTTP_request.png]
+
+HTTP APIs are able to communicate via the methods of response and request. They are, in essence, the opposites of each other, but to show in different amounts of detail, included is an image of a HTTP Request (Image from Mozilla, https://developer.mozilla.org/en-US/docs/Web/HTTP/Messages/httpmsg2.png) and a HTTP Response (Image from GeeksForGeeks, https://media.geeksforgeeks.org/wp-content/uploads/20210905094321/StructureOfAHTTPResponse-660x374.png)
