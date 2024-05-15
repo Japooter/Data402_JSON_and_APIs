@@ -74,6 +74,8 @@ Modern APIs usually come in the form of HTTP or REST, with the former standing f
 (https://docs.oracle.com/en/cloud/saas/marketing/eloqua-develop/Developers/GettingStarted/APIRequests/HTTP-verbs.htm)
 (https://www.restapitutorial.com/lessons/httpmethods.html)
 
-!image[HTTP_request.png]
+HTTP APIs are able to communicate via the methods of response and request. They are, in essence, the opposites of each other, but to show in different amounts of detail, included is an image of a HTTP Request (Image from Mozilla, https://developer.mozilla.org/en-US/docs/Web/HTTP/Messages/httpmsg2.png) and a HTTP Response (Image from GeeksForGeeks, https://media.geeksforgeeks.org/wp-content/uploads/20210905094321/StructureOfAHTTPResponse-660x374.png). They are shown in this order below.
 
-HTTP APIs are able to communicate via the methods of response and request. They are, in essence, the opposites of each other, but to show in different amounts of detail, included is an image of a HTTP Request (Image from Mozilla, https://developer.mozilla.org/en-US/docs/Web/HTTP/Messages/httpmsg2.png) and a HTTP Response (Image from GeeksForGeeks, https://media.geeksforgeeks.org/wp-content/uploads/20210905094321/StructureOfAHTTPResponse-660x374.png)
+![image](HTTP_request.png "HTTP Request Structure")
+
+![image](HTTP_response.png "HTTP Response Structure")
